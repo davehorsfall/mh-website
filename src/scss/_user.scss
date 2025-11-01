@@ -1,0 +1,15 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+.clear-header {
+  margin-top: 5rem;
+}
+
+.hero-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem; /* adjust for responsiveness */
+  font-weight: 400; /* Pacifico only has regular weight */
+  line-height: 1.2;
+  color: #fff; /* ensures readability on dark bg */
+}

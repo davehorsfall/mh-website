@@ -1,0 +1,99 @@
+<header class="navbar navbar-expand-lg fixed-top bg-light">
+  <div class="container">
+    <!-- Navbar brand (Logo) -->
+    <a class="navbar-brand pe-sm-3" href="{% link index.html %}">
+      <img
+        src="{{ 'assets/img/logos/logo.png' | relative_url }}"
+        alt="Mel Horsfall Play Therapy"
+        width="120"
+        class="d-inline-block align-text-top"
+      />
+    </a>
+
+    <a
+      class="btn btn-primary btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex text-uppercase ms-auto"
+      href="{% link _pages/contact.md %}"
+      rel="noopener"
+    >
+      Get in touch
+    </a>
+
+    <!-- Mobile menu toggler (Hamburger) -->
+    <button
+      class="navbar-toggler ms-sm-3"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar collapse (Main navigation) -->
+    <nav class="collapse navbar-collapse" id="navbarNav">
+      <ul
+        class="navbar-nav navbar-nav-scroll me-auto"
+        style="--ar-scroll-height: 520px"
+      >
+        {% for item in site.data.navigation.main %} {% if item.children %}
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="{{ site.baseurl }}{{ item.url }}"
+            data-bs-toggle="dropdown"
+            data-bs-auto-close="outside"
+            aria-expanded="false"
+            >{{ item.name }}</a
+          >
+          <ul class="dropdown-menu">
+            {% for child in item.children %} {% if child.children %}
+            <li class="dropdown">
+              <a
+                class="dropdown-item dropdown-toggle"
+                href="{{ site.baseurl }}{{ child.url }}"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >{{ child.name }}</a
+              >
+              <ul class="dropdown-menu">
+                {% for subchild in child.children %}
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="{{ site.baseurl }}{{ subchild.url }}"
+                    >{{ subchild.name }}</a
+                  >
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% else %}
+            <li>
+              <a class="dropdown-item" href="{{ site.baseurl }}{{ child.url }}"
+                >{{ child.name }}</a
+              >
+            </li>
+            {% endif %} {% endfor %}
+          </ul>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}"
+            >{{ item.name }}</a
+          >
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+
+      <div class="d-sm-none p-3 mt-n3">
+        <a
+          class="btn btn-primary w-100 mb-1 text-uppercase"
+          href="{% link _pages/contact.md %}"
+          rel="noopener"
+        >
+          Get in Touch
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>

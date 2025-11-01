@@ -1,0 +1,13 @@
+{
+  "extends": "stylelint-config-twbs-bootstrap",
+  "ignoreFiles": [
+    "assets/**/*"
+  ],
+  "rules": {
+    "selector-max-class": null,
+    "selector-max-compound-selectors": null,
+    "stylistic/no-missing-end-of-source-newline": null,
+    "stylistic/selector-combinator-space-after": null,
+    "stylistic/selector-combinator-space-before": null
+  }
+}

@@ -1,0 +1,53 @@
+<!-- Hero -->
+<section
+  class="jarallax min-vh-100 py-lg-3 py-xl-4 py-xxl-5 position-relative"
+  data-jarallax
+  data-speed="0.65"
+>
+  <div
+    class="jarallax-img"
+    style="background-image: url({{ 'assets/img/landing/hero-bg.webp' | relative_url }})"
+  ></div>
+
+  <!-- Overlay -->
+  <div
+    class="hero-overlay position-absolute top-0 start-0 w-100 h-100"
+    style="
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.1)
+      );
+      z-index: 1;
+    "
+  ></div>
+
+  <div
+    class="container pt-5 pb-lg-4 pb-xl-5 mt-5 position-relative z-3 text-dark"
+  >
+    <div class="row pt-xl-4">
+      <!-- Text -->
+      <div
+        class="col-md-7 col-lg-6 col-xxl-6 order-md-1 position-relative z-3 text-center text-md-start pb-sm-3 pb-md-5 pt-4 mb-md-5 mt-2"
+      >
+        <h1 class="display-3 text-uppercase mb-sm-4">
+          <span class="fw-bold">Mel Horsfall Play Therapy</span>
+        </h1>
+        <div class="mx-auto mx-md-0">
+          <p class="display-6">Affirm and thrive through play</p>
+          <p class="fw-bold mb-3">
+            Creative Arts & Play Therapy for children aged 4–13
+          </p>
+          <p class="mb-4 mb-lg-5">
+            Tailored sessions include parent and carer consultation, drawing on
+            25 years of professional experience supporting children, families,
+            and schools across Worthing and the wider Sussex area.
+          </p>
+          <a class="btn btn-outline-dark" href="{% link _pages/contact.md %}">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

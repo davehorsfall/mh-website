@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<!-- Page container-->
+<section class="container pt-5 clear-header">
+  <!-- Breadcrumb-->
+  {% include breadcrumbs.html %}
+
+  <div class="row">
+    <div class="col-lg-9 col-xl-8 pe-lg-4 pe-xl-0">
+      <!-- Post title + post meta -->
+      <h1 class="pb-2 pb-lg-3">{{ page.title }}</h1>
+
+      <!-- Page content -->
+      {{ content }}
+    </div>
+
+    <!-- Sidebar (offcanvas on sreens < 992px) -->
+    {%- include sidebar.html -%}
+  </div>
+</section>
+
+<!-- Sidebar toggle button -->
+<button
+  class="d-lg-none btn btn-sm fs-sm btn-primary w-100 rounded-0 fixed-bottom"
+  type="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#sidebar"
+>
+  <i class="ai-layout-column me-2"></i>
+  Sidebar
+</button>

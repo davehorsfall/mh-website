@@ -1,0 +1,14 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.tweet-cache
+# Node
+node_modules
+assets/vendor
+# General 
+**/.DS_Store
+
+# Gallery
+tmp
