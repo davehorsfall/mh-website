@@ -1,9 +1,6 @@
 # 🌿 Play Therapy Website
 
-A simple [Jekyll](https://jekyllrb.com/) website built to support a new **Play Therapy** business.
-This site is designed to be lightweight, easy to maintain, and simple to run locally for editing and updates.
-
----
+A [Jekyll](https://jekyllrb.com/) website. This site is designed to be lightweight, easy to maintain, and simple to run locally for editing and updates.
 
 ## 🚀 Getting Started
 
@@ -21,8 +18,6 @@ bundle -v
 
 If any of these return “command not found,” follow the [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for your operating system.
 
----
-
 ### 2. Install Dependencies
 
 In your cloned project folder:
@@ -33,8 +28,6 @@ bundle install
 ```
 
 This installs all required Ruby gems for Jekyll and its plugins.
-
----
 
 ### 3. Run the Site Locally
 
@@ -50,8 +43,6 @@ Then open your browser to:
 
 You should now see the site running locally.
 
----
-
 ### ⚙️ 4. Optional: Update Dependencies
 
 If the project is old or you want to refresh dependencies:
@@ -61,8 +52,6 @@ bundle update
 ```
 
 This updates gems to their latest compatible versions.
-
----
 
 ## 🧩 Frontend Development (Optional)
 
@@ -77,7 +66,7 @@ npm install
 Run the development build:
 
 ```bash
-npm run dev
+npm run build
 ```
 
 ### Update Styles
@@ -87,24 +76,10 @@ To modify site styling:
 - Core SCSS variables live in `src/scss/*.scss`
 - Add your own overrides in `src/scss/_user_.scss`
 
-Then build styles:
+Then build:
 
 ```bash
-npm run styles:expanded
-npm run styles:minified
-```
-
-### Generate Scripts
-
-```bash
-npm run scripts:expanded
-npm run scripts:minified
-```
-
-### Generate Icon Fonts
-
-```bash
-npm run icon-font
+npm run build
 ```
 
 ---
@@ -126,17 +101,11 @@ To update website content:
    When ready, open a PR and assign it to one of the maintainers:
 
    - @davehorsfall
-   - @felicityguest
-   - @lifan0127
-
----
 
 ## 🐳 Optional: Develop in a Dev Container
 
 This project includes a `.devcontainer/devcontainer.json` file.
 If you use [VS Code](https://code.visualstudio.com/) or [GitHub Codespaces](https://github.com/features/codespaces), you can open the project directly inside a **preconfigured Ruby development environment** — no local setup required.
-
----
 
 ## 💡 Tips
 
@@ -144,18 +113,16 @@ If you use [VS Code](https://code.visualstudio.com/) or [GitHub Codespaces](http
 - Always use `bundle exec` when running Jekyll to ensure version consistency.
 - To deploy updates, push changes to the main branch (if connected to GitHub Pages).
 
----
+## 🎨 Colour Palette
 
-## 📄 License
+This website uses a palette extracted from the primary hero image. .
 
-This project is licensed under the [MIT License](LICENSE).
+| Colour   | Hex Code  |
+| :------- | :-------- |
+| 🩵 Blue  | `#405D8F` |
+| 🌿 Green | `#638979` |
+| 🪶 Taupe | `#9A8B80` |
+| 🌾 Sand  | `#CDB38E` |
+| 🌌 Slate | `#344C62` |
 
----
-
-**Maintained by:** [Dave Horsfall](https://github.com/davehorsfall)
-**Project Type:** Jekyll Static Website
-**Purpose:** Website for a Play Therapy business
-
-#1087c3 Blue
-#e88949 Orange
-#73b0e3 Light blue
+Palette Reference: [Coolors Palette](https://coolors.co/palette/cdb38e-9a8b80-344c62-638979-405d8f)
