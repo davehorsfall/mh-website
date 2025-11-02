@@ -1,5 +1,3 @@
-# 🌿 Play Therapy Website
-
 A [Jekyll](https://jekyllrb.com/) website. This site is designed to be lightweight, easy to maintain, and simple to run locally for editing and updates.
 
 ## 🚀 Getting Started
@@ -115,7 +113,7 @@ If you use [VS Code](https://code.visualstudio.com/) or [GitHub Codespaces](http
 
 ## 🎨 Colour Palette
 
-This website uses a palette extracted from the primary hero image. .
+This website uses a palette extracted from the primary hero image.
 
 | Colour   | Hex Code  |
 | :------- | :-------- |
