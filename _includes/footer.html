@@ -21,12 +21,49 @@
       <div
         class="d-flex justify-content-center justify-content-md-end align-items-center"
       >
-          <img
-            src="{{ 'assets/img/accreditations.webp' | relative_url }}"
-            alt="Member of PTUK, accredited by the Professional Standards Authority"
-            class="img-fluid"
-            style="max-height: 80px"
-          />
+        <div class="bg-white rounded-3 p-2 p-sm-3 shadow-sm">
+          <div class="d-flex flex-wrap align-items-center justify-content-center gap-3">
+            <a
+              href="https://playtherapy.org.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit PTUK website"
+            >
+              <img
+                src="{{ 'assets/img/accreditations/ptuk.webp' | relative_url }}"
+                alt="Member of PTUK, accredited by the Professional Standards Authority"
+                class="img-fluid"
+                style="height: 44px; width: auto; object-fit: contain"
+              />
+            </a>
+            <a
+              href="https://playtherapy.org.uk/29-03-22-the-child-mental-health-charter-campaign-is-holding-the-government-to-account/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Child Mental Health Charter website"
+            >
+              <img
+                src="{{ 'assets/img/accreditations/child-mental-health-charter.webp' | relative_url }}"
+                alt="Child Mental Health Charter"
+                class="img-fluid"
+                style="height: 44px; width: auto; object-fit: contain"
+              />
+            </a>
+            <a
+              href="https://apac.org.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit APAC website"
+            >
+              <img
+                src="{{ 'assets/img/accreditations/apac.webp' | relative_url }}"
+                alt="APAC"
+                class="img-fluid"
+                style="height: 44px; width: auto; object-fit: contain"
+              />
+            </a>
+          </div>
+        </div>
       </div>      
     </div>
     <div
@@ -34,7 +71,7 @@
     >
       <a
         class="nav-link d-inline-block text-body-secondary fs-sm text-decoration-none order-md-2 py-1 px-0 mb-3 mb-md-0"
-        href="{% link _pages/policies/privacy.md %}"
+        href="{% link _pages/privacy.md %}"
         >Privacy policy</a
       >
       <p class="fs-sm order-md-1 mb-0">

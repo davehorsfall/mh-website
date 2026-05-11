@@ -1,11 +1,14 @@
-- name: Therapy Through Play
-  url: /child-therapy-using-creative-arts-and-play/
+- name: Home/Services
+  url: /
 
-- name: Private Sessions
-  url: /services/private-sessions/
+- name: Play Therapy
+  url: /play-therapy/
 
-- name: Schools Service
-  url: /services/schools-services/
+- name: School/Parent Support
+  url: /school-parent-support/
 
-- name: Parent Support
-  url: /services/parent-support/
+- name: Referral Process
+  url: /referral-process/
+
+- name: FAQs
+  url: /faqs/

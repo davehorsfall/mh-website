@@ -13,3 +13,32 @@
   }
 }
 
+.hero-testimonial {
+  position: relative;
+  max-width: 720px;
+  padding: 2.5rem 2rem 2rem;
+  margin: 0 auto;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 0.75rem;
+}
+
+.hero-quote-icon {
+  position: absolute;
+  top: -1.25rem;
+  left: 10%;
+  font-size: 3.5rem;
+  opacity: 0.35;
+  transform: translateX(-50%);
+}
+
+.hero-testimonial p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hero-testimonial footer {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}

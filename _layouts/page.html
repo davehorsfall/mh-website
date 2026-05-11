@@ -7,18 +7,10 @@ layout: default
   <!-- Breadcrumb-->
   {% include breadcrumbs.html %}
 
-  <div class="row">
-    <div class="col-lg-9 col-xl-8 pe-lg-4 pe-xl-0">
-      <!-- Post title + post meta -->
-      <h1 class="pb-2 pb-lg-3">{{ page.title }}</h1>
+  <h1 class="pb-2 pb-lg-3">{{ page.title }}</h1>
 
-      <!-- Page content -->
-      {{ content }}
-    </div>
-
-    <!-- Sidebar (offcanvas on sreens < 992px) -->
-    {%- include sidebar.html -%}
-  </div>
+  <!-- Page content -->
+  {{ content }}
 </section>
 
 <!-- Sidebar toggle button -->
