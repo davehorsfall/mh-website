@@ -22,8 +22,8 @@ title: Mel Horsfall Play Therapy
 email: info@melhorsfall.co.uk
 description: >-
   Mel Horsfall Play Therapy helps children aged 4–13 express themselves, build resilience, and thrive emotionally, with support for parents, carers, and schools across Sussex.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://melhorsfall.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/mh-website" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/app-icons/icon-32x32.png
 locale: en_GB
 
