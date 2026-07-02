@@ -4,8 +4,11 @@
 - name: Play Therapy
   url: /play-therapy/
 
-- name: School/Parent Support
-  url: /school-parent-support/
+- name: Parent/Carer Support
+  url: /parent-carer-support/
+
+- name: Packages
+  url: /packages/
 
 - name: Referral Process
   url: /referral-process/

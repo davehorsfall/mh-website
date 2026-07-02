@@ -4,6 +4,8 @@ title: Referral Process
 description: This is my description for the page
 ---
 
+You can self-refer or be referred by a school or social worker. I usually respond within two working days. Mel Horsfall Therapy is not an emergency service; in a crisis, please contact 999 and for more immediate support NHS 111 or your GP.
+
 1. **Initial Contact**
 
    Contact me via email with an outline of your child’s current difficulties and referral

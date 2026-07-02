@@ -17595,14 +17595,24 @@ img-comparison-slider:focus {
 }
 
 .hero-testimonial p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
-.hero-testimonial footer {
+.hero-testimonial .blockquote-footer {
+  justify-content: left;
   margin-top: 1rem;
   font-size: 0.95rem;
+  text-align: left;
   opacity: 0.85;
+}
+
+.play-therapy-oval {
+  width: 100%;
+  aspect-ratio: 3/4;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=theme.css.map */
